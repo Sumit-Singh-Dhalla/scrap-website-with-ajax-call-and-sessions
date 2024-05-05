@@ -1,4 +1,4 @@
-# Scrap the Website using Scrapy
+# Scrape the Website using Scrapy
 
 ## Explanation
 
@@ -13,7 +13,7 @@ So we have used Python Scrapy to complete this task.
     > install python 3.11.x
     > install the requirements.txt file
     > at the root directory of this project run the command: scrapy crawl example -o links.jsonl
-    > for now we have made this script to run only for first 5 pages, if you want to scrap all the pages
+    > for now we have made this script to run only for first 5 pages, if you want to scrape all the pages
       then in file tutorial/spiders/example.py remove the 
       and self.start < 5  condition to make it run for all of the pages
     > Then you can see the output in links.jsonl file
